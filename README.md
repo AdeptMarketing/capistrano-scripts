@@ -9,6 +9,8 @@ Capistrano is a deployment tool written in Ruby. It was designed to make deploym
 
 To get started you'll need to install the capistrano gem (if it's not already present on your local machine) using `gem install capistrano`.
 
+**Note:** These deployment scripts only work with Capistrano 2, the current version is Capistrano 3. You need to add the version flag when you install the Capistrano gem `-v 2.15.5`.
+
 ## Capify-ing a project
 
 The first step when preparing a project to be deployed via Capistrano is to "capify" the project
